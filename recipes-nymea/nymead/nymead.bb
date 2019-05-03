@@ -12,7 +12,7 @@ SRCREV="fix-include-installs"
 require recipes-qt/qt5/qt5.inc
 inherit qmake5
 
-DEPENDS += "qtbase qtwebsockets qtconnectivity nymea-mqtt nymea-remoteproxy"
+DEPENDS += "avahi qtbase qtwebsockets qtconnectivity nymea-mqtt nymea-remoteproxy"
 
 S = "${WORKDIR}/git"
 
